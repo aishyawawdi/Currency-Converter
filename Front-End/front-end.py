@@ -15,7 +15,7 @@ def index():
         global backend_data
         json_request = request.get_json(force=True)
         backend_data =json_request
-    return render_template("index2.html", data=backend_data, url = first_address, url2 = second_address)
+    return render_template("home.html", data=backend_data, url = first_address, url2 = second_address)
 
 
 
