@@ -36,7 +36,7 @@ go the the url: https://127.0.0.0:5000) (port=5000)
 ## RUN By kubernetes:  
 ```bash
 git clone https://github.com/aishyawawdi/Currency-Converter.git
-cd Currency-Converter.git
+cd Currency-Converter
 cd Kubernetes 
 kubectl apply -f backend_deployment.yml -f backend_service.yml -f frontend_deployment.yml -f frontend_service.yml -f auti_deployment.yml -f auti_service.yml  
 
@@ -46,7 +46,7 @@ go to the url: "127.0.0.1:30039"
 ## RUN By Terraform:  
 ```bash
 git clone https://github.com/aishyawawdi/Currency-Converter.git 
-cd Currency-Converter.git 
+cd Currency-Converter 
 ```
 go to main.tf file and change the key name your Keypair name in your aws   
 add your privte key file to the folder
