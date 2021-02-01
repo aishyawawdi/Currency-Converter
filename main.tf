@@ -175,7 +175,7 @@ resource "aws_instance" "web-server-instance" {
       "sudo curl -L \"https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)\" -o /usr/local/bin/docker-compose",
       "sudo chmod +x /usr/local/bin/docker-compose",
       "sudo apt install git-all -y",
-      "git clone https://github.com/aishyawawdi/Currency-Converter-App.git",
+      "git clone https://github.com/aishyawawdi/Currency-Converter.git",
       "cd Currency-Convertor-App",
       "sudo docker-compose up -d --build"
     ]
