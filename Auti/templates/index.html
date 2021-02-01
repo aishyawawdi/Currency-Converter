@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Auti</title>
+</head>
+<body style="background-color:#f5f7fcd3">
+<h1> <p style="color:#0f0f0f";> Auti </p>   </h1>
+
+<table>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <div class="container h-100">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-sm-12 col-xs-12 pt-5">
+                <div class="card border-0 p-3 shadow-sm text-center">
+    <tr style="background-color: rgb(129, 122, 122) ;">
+        <td style="color: #ae09fa;">Time</td>
+        <td style="color: #ae09fa;">Amount</td>
+        <td style="color: #ae09fa;">Currency</td>
+        <td style="color: #ae09fa;">Target_Currency</td>
+        <td style="color: #ae09fa;">Rate</td>
+        <td style="color: #ae09fa;">Conversion</td>
+    </tr>
+</div>
+</div>
+</div>
+</div>
+    {% for element in data %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <div class="container h-100">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-sm-12 col-xs-12 pt-5">
+                <div class="card border-0 p-3 shadow-sm text-center">
+        <tr style="background-color: rgb(129, 122, 122) ;">
+            <td style="color: #ae09fa;"> {{ element[0] }} </td>
+            <td style="color: #ae09fa;"> {{ element[1] }}</td>
+            <td style="color: #ae09fa;"> {{ element[2] }} </td>
+            <td style="color: #ae09fa;"> {{ element[3] }} </td>
+            <td style="color: #ae09fa;"> {{ element[4] }} </td>
+            <td style="color: #ae09fa;"> {{ element[5] }} </td>
+
+        </tr>
+    </div>
+</div>
+</div>
+</div>
+    {% endfor %}
+</table>
+</body>
+</html>
