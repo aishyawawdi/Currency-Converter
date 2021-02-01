@@ -21,17 +21,6 @@ flask run
 ```
 go the the url: https://127.0.0.0:5000) (port=5000)
 
-## RUN By Docker
-
-open cmd and get into the file location and then enter:
-```bash
-docker build -t frontend .
-```
-after getting the image now we can run the container:
-```bash
-docker run -d -p 5000:5000 frontend
-```
-go the the url: https://127.0.0.0:5000) (port=5000)
 
 ## RUN By kubernetes:  
 ```bash
